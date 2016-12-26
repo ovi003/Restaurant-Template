@@ -1,0 +1,273 @@
+/*
+* Header Style
+*/
+
+html,
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+}
+.navbar-custom {
+    border:0px;
+    border-bottom: 1px solid #f1f1f1;
+    height: 70px;
+    margin-bottom: 0;
+}
+.navbar-nav > li > a {
+	color: #252525;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	padding: 23px 25px;
+	text-transform: uppercase;
+}
+.navbar-nav > li > a:hover{
+	background-color: transparent;
+	color: #F53300;
+}
+.navbar-brand{
+	background-color: #F53300;
+	color: #fff;
+	font-size: 25px;
+	height: 70px;
+	padding-top: 22px;
+	transition: color .3s;
+}
+.navbar-brand:hover{
+	color:#f1f1f1;
+}
+.navbar-custom .navbar-nav > .active > a, 
+.navbar-custom .navbar-nav > .active > a:focus, 
+.navbar-custom .navbar-nav > .active > a:hover{
+	color: #F53300;
+}
+.navbar-toggle .icon-bar{
+	background-color: #000;
+}
+.navbar-toggle{
+	padding:16px 10px;
+}
+
+/*
+* Slide image style
+*/
+
+#slide{
+	background-image: url('img/bg2.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: cover;
+	filter: brightness(60%) contrast(80%);
+	height: 500px;
+	width: 100%;
+	z-index: 0;
+}
+.slide_text{
+	bottom: 170px;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-left: 0%;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 999;
+}
+.slide_text h3{
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: uppercase;
+
+}
+.btn-reserve{
+	background-color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	font-size: 18px;	
+	color: #252525;
+	text-transform: uppercase;
+	margin-right: 5px;
+}
+.btn-menu{
+	background-color: #F53300;
+	border-radius: 0;
+	color: #fff;
+	font-size: 18px;
+	margin-left:5px;
+	padding: 10px 49px;
+	text-transform: uppercase;
+}
+
+/*
+* Service section Style
+*/
+
+.section_title{
+	color:#F53300;	
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 30px;
+}
+.service{
+	overflow:auto;
+	padding: 20px;
+}
+.service_icon{
+	box-shadow: 0 0 3px lightgray;
+	float: left;
+	margin-right:15px;
+	padding:15px;
+}
+.service_icon img{
+	height:128px;
+	width: 128px;
+}
+.service_body{
+	margin-left: 15px;
+}
+.service_title{
+	font-size: 20px;
+	margin: 0;
+}
+.service_body p{
+	font-size: 16px;
+	margin-top: 10px;
+}
+.btn-service{
+	background-color: #F53300;
+	border-radius: 0;
+	color: #fff;
+	margin-top: 10px;
+}
+
+/*
+*	Menu section style
+*/
+
+#emana_menu{
+	background-color: #E0E4E7;
+}
+.menu_box{
+	box-shadow: 0px 1px 3px #ccc;
+	background-color: #fff;
+	margin-bottom: 20px;
+	overflow: auto;
+	text-align: center;
+}
+#emana_menu .col-lg-4{
+	margin-bottom: -1px;
+}
+.no-margin{
+	margin: 0;
+	padding: 0;
+}
+.menu-title{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.price_box{
+	background-color: #F53300;
+	color: #ffffff;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	position: absolute;
+	z-index: 999;
+}
+
+/*
+* Menu section style
+*/
+
+.user_profile{
+	border-radius: 50%;
+	float: left;
+	height: 150px;
+	width: 150px;
+}
+#testimonial_carousal{
+	padding: 70px;
+}
+.carousel-control.left,
+.carousel-control.right{
+	background-image: none;
+	color: #000;
+	width: 5%;
+}
+.testimonial_text{
+	color: #525252;
+	font-size: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+.author_name{
+	color: #3d3d3d;
+}
+.carousel-indicators li{
+	background-color: #ccc;
+}
+.carousel-indicators .active{
+	background-color: #000;
+}
+.author_name{
+	float: right;
+	font-style: italic;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+/*
+* Footer section style 
+*/
+
+.footer{
+	background-color: #5c5c5c;
+}
+.footer_inner{
+	padding: 30px 0;
+}
+.footer_inner .title{
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.footer_list li a{
+	color: #f2f2f2;
+	font-size: 18px;
+}
+.address{
+	color: #f2f2f2;
+	font-size: 18px;
+}
+.social_links{
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+}
+.social_links li{
+	float: left;
+	line-height: 50px;
+	list-style: none;
+}
+.social_links li a{
+	background-color: gray;
+	color: #fff;
+	font-size: 20px;
+	height: 40px;
+	margin: 0 5px;
+	padding: 11px 21px;
+	width: 40px;
+}
+.subscribe{
+	border-radius: 0;
+	padding: 20px 0;
+	width: 300px;
+}
+.subscribe .form-control{
+	border-radius: 0;
+	border: 0;
+	background-color: #666;
+}
+.subscribe .btn{
+	border-radius: 0;
+}
